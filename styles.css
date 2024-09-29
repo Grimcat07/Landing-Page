@@ -121,3 +121,25 @@ ul
     justify-content: center;
     margin: 0;
 }
+.quotes
+{
+    display: flex;
+    background-color: #E5E7Eb;
+    font-size: 36px;
+    color: grey;
+    flex-direction: column;
+    font-style: italic;
+    padding: 50px 200px;
+}
+.speaker
+{
+    color: #1F2937;
+    font-size: 20px;
+   justify-content: flex-end;
+    display: flex;
+
+}
+.quote
+{
+    padding: 26px;
+}
