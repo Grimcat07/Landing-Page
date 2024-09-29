@@ -56,7 +56,7 @@ ul
     display: flex;
     justify-content: center;
     max-width: 900px;
-    padding: 24px 100px;
+    padding: 30px 60px;
 
 }
 .himg
@@ -83,4 +83,41 @@ ul
     font-size: 18px;
     display: flex;
     margin-top: 12px;
+}
+.information
+{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 50px;
+    color: #1F2937;
+}
+.cards
+{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    flex: 1;
+    gap: 18px;
+}
+
+.card-image
+{
+    border-radius: 12px;
+    border-color: #3882F6;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+}
+.info-text
+{
+    font-size: 18px;
+    color: grey;
+    width: 150px;
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 }
