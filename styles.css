@@ -65,8 +65,7 @@ ul
     justify-content: center;
     align-items: center;
     background-color: grey;
-    width: 600px;
-
+    min-width: 400px;
 }
 .placeholder
 {
@@ -82,7 +81,8 @@ ul
     color: white;
     font-size: 18px;
     display: flex;
-    margin-top: 12px;
+    margin-top: 15px;
+    align-items: baseline;
 }
 .information
 {
@@ -153,8 +153,9 @@ ul
    padding: 20px 45px;
    justify-content: space-evenly;
    flex-basis: 0;
-   margin: 10px 220px;
+   margin: 70px 220px;
    gap: 8px;
+   border-radius: 10px;
 
 }
 .cmain
@@ -172,4 +173,14 @@ ul
     justify-content: center;
     height: auto;
     width: 105px;
+}
+.footer
+{
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    height: 65px;
+    align-items: center;
 }
