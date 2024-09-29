@@ -130,6 +130,7 @@ ul
     flex-direction: column;
     font-style: italic;
     padding: 50px 200px;
+    margin-bottom: 30px;
 }
 .speaker
 {
@@ -142,4 +143,33 @@ ul
 .quote
 {
     padding: 26px;
+}
+.call
+{
+   background-color: #3882F6; 
+   color: white;
+   border-color: white;
+   display: flex;
+   padding: 20px 45px;
+   justify-content: space-evenly;
+   flex-basis: 0;
+   margin: 10px 220px;
+   gap: 8px;
+
+}
+.cmain
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+.signup .sign-up
+{
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 105px;
 }
